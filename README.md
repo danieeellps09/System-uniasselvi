@@ -1,6 +1,6 @@
 # System-uniasselvi
 Configuração 
-Se estiver usando Docker, utilize o seguinte comando para obter o IP do container:
+```Se estiver usando Docker, utilize o seguinte comando para obter o IP do container:
 Certifique-se de substituir "ip_do_container" pelo nome ou ID do seu container.
 Em seguida, abra o arquivo `config.php` e atualize as informações de conexão com o banco de dados:
 
