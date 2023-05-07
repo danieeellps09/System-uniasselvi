@@ -1,16 +1,12 @@
 # System-uniasselvi
 # Configuração do Projeto
 
-## 1° Passo
-
+``` ## 1° Passo
 Se estiver usando Docker, utilize o seguinte comando para obter o IP do container:
-
-
 Certifique-se de substituir "ip_do_container" pelo nome ou ID do seu container.
-
 Em seguida, abra o arquivo `config.php` e atualize as informações de conexão com o banco de dados:
 
-```php
+php
 $server = 'ip_do_container:porta';
 $base = 'tecsystems';
 $usuario = 'root';
